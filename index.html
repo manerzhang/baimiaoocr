@@ -2,9 +2,267 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>白描OCR</title>
+		<title>XMath</title>
+		<style type="text/css">
+			@font-face{
+			  font-family: SourceHanSansCN-Light;
+			  src: url("css/font/SourceHanSansCN-Light.otf");
+			}
+			@font-face{
+			  font-family: SourceHanSansCN-Bold;
+			  src: url("css/font/SourceHanSansCN-Bold.otf");
+			}
+			a{
+			text-decoration: none;
+			}
+			a:link {color: #4078C0;}
+			
+			a:visited {color: #4078C0;} 
+			
+			a:active {color: #4078C0;} 
+			
+			body {
+				font-family: SourceHanSansCN-Light;
+				width: 750px;
+			}
+			body h1{
+				background-color:#FAFAFA;
+				background-repeat: no-repeat;
+				background-position:5px center;
+				font-size: 25px;
+				color: #313131;
+				padding-left: 10px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				margin-top: 30px;
+			}
+			body h2{
+				font-family: SourceHanSansCN-Bold;
+				font-size: 20px;
+				color: #313131;
+				padding-left: 10px;
+				padding-top: 5px;
+				margin-top: 25px;
+			}
+			body p{
+				padding-left: 10px;
+				padding-right:5px;
+				font-size: 18px;
+			}
+			body img{
+				position: absolute;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				margin: 20px auto 0 auto;
+			}
+			.banner{
+				width: 750px;
+				height: 400px;
+				background-clip:border-box;
+				border-width: 100px;
+				position: relative;
+				margin: 0 auto;
+			}
+			.pic{
+				width: 650px;
+				height: 400px;	
+				background-clip:border-box;
+				box-shadow: 10px 10px 5px #888888;
+				border-width: 100px;
+				-webkit-border-image:url(css/img/mddbg.png)  0 0 round; /* Safari 5 and older */
+				position: relative;
+				margin: 0 auto;
+			}
+			.link{
+				
+				width: 500px;
+				height: 30px;
+				line-height: 30px;
+				background-color:#FAFAFA;
+				background-image: url(css/img/mddbg.png);
+				border-image-repeat: repeat;
+				border-style: dashed;
+				border-color: #df7495;
+				border-width: 2px ;
+				text-align: center;
+				margin: 0 auto;
+			}
+			table{
+				width: 500px;
+				border-color: #f1f1f1;
+				border-width: 3px;
+				border-style: solid;
+				border-collapse:collapse;
+				text-align: center;
+				margin: 0px auto;
+			}
+			tr{
+				height: 35px;
+			}
+			tr.pink{
+				background-color: #FDE7E7;
+			}
+			ul{
+				list-style-position: outside;
+			}
+		</style>
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<a href="/">首页</a>
+	<body>			
+			<div class="banner" style="height:400px; width: 750px;">
+				<img src="css/img/bm24.jpg" width="730px">
+			</div>
+			<h1>功能与特色</h1>
+			<p>白描，像猫一样灵动的OCR扫描识别神器。具备高准确度的文字识别、表格识别转Excel、批量识别、识别后翻译、文件扫描等功能。</p>
+			<p>“当我需要快速识别图片中的文字以及扫描文件时，第一个想到的就是白描。”</p>
+			<p>获App Store、华为应用市场、小米应用市场、360手机市场、百度手机助手、豌豆荚市场、最美应用、少数派、爱范儿等多平台采访推荐，绝对是你手机里最值得留存的App之一，简单好用，还很美貌。目前有iOS版，Android版、微信小程序版、网页版。</p>
+			<h2>下载地址</h2>
+			<p>以下是官网下载地址，您也可以 <i class="fa fa-weixin" aria-hidden="true"></i> 关注「买对的正版数字店」回复 白描 获得</p>
+				<div style="width: 500px;
+					height: 30px;
+					line-height: 30px;
+					background-color:#FAFAFA;
+					background-image: url(css/img/mddbg.png);
+					border-image-repeat: repeat;
+					border-style: dashed;
+					border-color: #df7495;
+					border-width: 2px ;
+					text-align: center;
+					margin: 0 auto;">
+					<a href="https://baimiao.uzero.cn/"> https://baimiao.uzero.cn/ </a>
+				</div>			
+			<h1>手机版</h1>
+				<h2>文字识别识别准确度高</h2>
+				<p>采用高精度文字识别引擎，拍照取字准确度业内领先。手写字的识别也有高准确度，可识别中文简体与繁体字、英文、德语、法语等语言。</p>
+				<div class="pic" style="height:400px; width: 750px;">
+					<img src="css/img/bm06.jpg" width="730px">
+				</div>
+											
+				<h2>识别结果翻译</h2>
+				<p>支持简体中文、日语、英语、韩语、法语、西班牙语、阿拉伯语、俄语、德语、葡萄牙语、意大利语、繁体中文、粤语、文言文的互译。</p>
+				<div class="pic" style="height:630px; width: 750px;">
+					<img src="css/img/bm04.jpg" width="730px">
+				</div>
+				<h2>高效的批量处理，极大提高效率</h2>
+				<p>你可以使用白描的批量处理功能，批量进行OCR文字识别，将全部结果合成一段文本。也可以批量生成扫描件，生成PDF。</p>
+				<p>长按一张图片，即可进入批量识别模式，然后点击其他图片进行多选即可，如下图左图：</p>
+				<div class="pic" style="height:630px; width: 750px;">
+					<img src="css/img/bm05.jpg" width="730px">
+				</div>
+				<p>多选之后即可进入批量识别界面，如上图右图所示，在批量识别界面可以设置任何一张图片的识别语言，识别完成之后可以进入任何一张图片选择需要的文字，全部识别完成之后，最下面的大按钮会变为「合并并查看文字」，点击即可去识别结果页面查看所有文字，并对所有图片和文字进行校对。</p>
+				<h2>表格识别</h2>
+				<p>在识别页面点击上面的文字按钮，即可出现下拉菜单，选择表格识别即可。</p>
+				<div class="pic" style="height:630px; width: 750px;">
+					<img src="css/img/bm18.jpg" width="730px">
+				</div>
+				<h2>身份证扫描，自由保存分享打印</h2>
+				<p>你可以使用白描快捷生成身份证正反面A4扫描件，即使身边没有扫描仪也不用担心。</p>
+				<p>可自定义身份证扫描件黑白或者彩色，可自由添加水印，完全自动裁剪与拼接。</p>
+				<div class="pic" style="height:720px; width: 750px;">
+					<img src="css/img/bm19.jpg" width="730px">
+				</div>
+				<h2>自动寻找文件边界</h2>
+				<p>拍一个文件肯定不能做到完全按文件边缘拍出来，如果就需要文件那部分，就要手动裁剪一下，那怎么样让这个行为更方便一些呢？我们可以自动寻找文件边缘，这样直接一裁就可以啦。</p>
+				<div class="pic" style="height:650px; width: 750px;">
+					<img src="css/img/bm16.jpg" width="730px">
+				</div>
+				<h2>选择文字手感顺滑，还原文字位置准确</h2>
+				<p>识别成功之后，手指滑动选择需要的文字，屏幕上会留下轨迹，没有选到的再滑过去继续选择即可，如下图左图。</p>
+				<div class="pic" style="height:650px; width: 750px;">
+					<img src="css/img/bm15.jpg" width="730px">
+				</div>
+				<h2>去除杂乱背景</h2>
+				<p>在纸很薄的情况下，背面的字会透出来，这样就造成了识别的时候可能会把纸背面的字当内容去识别了，白描当然也提供了解决办法，通过黑白色彩切换，可以很轻易的去除透出来的字或者其他杂乱背景。</p>
+				<div class="pic" style="height:670px; width: 750px;">
+					<img src="css/img/bm17.jpg" width="730px">
+				</div>
+				<h2>校对与编辑</h2>
+				<p>文字识别页面下方添加了校对功能，可以点击「校对」按钮弹出校对视图，方便识别结果与原图对比修改，不需要时再点击按钮即可消失，如下图。</p>
+				<div class="pic" style="height:620px; width: 750px;">
+					<img src="css/img/bm14.jpg" width="730px">
+				</div>
+				<h2>快捷打开第三方 App 粘贴和分享识别结果</h2>
+				<p>为了更方便的将识别结果粘贴到自己常用的平台，白描添加了管理第三方 App 的功能，在设置里，可以打开自己常用的 App 的开关，以显示在识别结果页面的「复制并打开」的菜单中，如下图：</p>
+				<div class="pic" style="height:620px; width: 750px;">
+					<img src="css/img/bm13.jpg" width="730px">
+				</div>
+				<h2>识别历史记录，方便检索</h2>
+				<p>所有的识别历史，白描都会在历史记录页面保存，方便以后查找，点击顶部搜索框输入内容即可完成搜索，不需要的直接左滑某一条删除即可。</p>
+				<div class="pic" style="height:400px; width: 750px;">
+					<img src="css/img/bm12.jpg" width="730px">
+				</div>
+				<h2>扫描件色彩</h2>
+				<p>白描提供了多种扫描件色彩的选择，以便于选择更适合文件的色彩。主要色彩有彩色文档、黑白文档、灰阶文档、原图增强、原图灰度、原图图片共 6 种色彩，各种颜色效果图如下：</p>
+				<div class="pic" style="height:470px; width: 750px;">
+					<img src="css/img/bm09.jpg" width="730px">
+				</div>
+				<div class="pic" style="height:470px; width: 750px;">
+					<img src="css/img/bm10.jpg" width="730px">
+				</div>
+				<div class="pic" style="height:470px; width: 750px;">
+					<img src="css/img/bm11.jpg" width="730px">
+				</div>
+				<h1>网页版</h1>
+				<p>白描网页版目前包含三大功能：图片文字提取、电子表格识别、扫描PDF转文字。可直接登录白描App 的账号使用，如果有白描 App 的会员，会员状态会直接同步到网页版。</p>
+				<div class="pic" style="height:470px; width: 750px;">
+					<img src="css/img/bm21.jpg" width="730px">
+				</div>
+				<h2>图片文字提取</h2>
+				<p>图片文字提取就是 OCR 文字识别功能，可以快捷的把图片上的文字转换成可编辑的，与手机白描 App 一样，既可以单张识别，也可以批量识别，最多支持 50 张图片同时识别，可以一次合并所有结果。</p>
+				<div class="pic" style="height:470px; width: 750px;">
+					<img src="css/img/bm20.jpg" width="730px">
+				</div>
+				<p>除了直接点击识别功能，还有简单的图片裁剪功能、按文件名排序功能。</p>
+				<div class="pic" style="height:450px; width: 750px;">
+					<img src="css/img/bm23.jpg" width="730px">
+				</div>
+				<p>识别结束后，查看识别结果非常方便，左边原图，右边识别结果，校对超级方便！还可以复制或者直接导出 DOCX 和 TXT 文件。</p>
+				
+				<h2>电子表格识别</h2>
+				<p>电子表格识别可以轻松将图片上的表格转换为 Excel 格式。</p>
+				<div class="pic" style="height:430px; width: 750px;">
+					<img src="css/img/bm22.gif" width="730px">
+				</div>
+				<h1>会员简介</h1>
+				<ul>
+					<li>问：可以同时登陆几台设备？</li>
+					<li>答：同一账号可以同时登录5台设备，您用同一账号登录。如果您用微信登录的，可以再绑定一个手机号或邮箱，用手机号或邮箱登录。</li>
+					<hr>
+					<li>问：第6台设备登陆，前面的设备怎么办？</li>
+					<li>答：第1台设备会自动退出。</li>
+					<hr >
+					<li>问：支持什么系统？</li>
+					<li>答：同一账号支持安卓、苹果、网页版同时登陆。</li>
+					<hr >
+					<li>问：可以免费试用吗？可以看效果吗？</li>
+					<li>答：可以使用免费版，次数受限制；发图片给客户看识别效果。</li>
+					<hr >
+					<li>问：批量识别每次可以识别多少张图片？每次识别最多可以识别多少字？</li>
+					<li>答：50张；5000字。</li>
+					<p></p>
+					<table border="" cellspacing="" cellpadding="">
+						<tr><th>会员类型</th><th>普通会员</th><th>黄金会员</th></tr>
+						<tr class="pink"><td>单张识别</td><td>无限</td><td>无限</td></tr>
+						<tr><td>多选批量识别</td><td>3次/天</td><td>无限</td></tr>
+						<tr class="pink"><td>翻译次数</td><td>3次/天</td><td>无限</td></tr>
+						<tr><td>翻译字数</td><td>1000字/次</td><td>无限</td></tr>					
+					</table>
+				</ul>
+				<h1>白描优惠码使用方法</h1>
+				<p>登陆账号后（推荐绑定手机号、邮箱），按以下步骤激活：</p>
+				<div class="pic" style="height:770px; width: 750px;">
+					<img src="css/img/bm01.png" width="730px">
+				</div>
+				<div class="pic" style="height:770px; width: 750px;">
+					<img src="css/img/bm02.png" width="730px">
+				</div>
+				<h1>联系方式</h1>
+				<ol>
+					<li>购买后提供使用教程以及指导服务；</li>
+					<li>本产品为虚拟产品，只提供产品序号，当订单是发货状态后，我们将不会同意您的退款申请；</li>
+					<li>如有使用问题或改进建议请发信至 <i class="fa fa-weixin" aria-hidden="true"></i> 公众号 白描APP ；</li>
+				</ol>
 	</body>
 </html>
